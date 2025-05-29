@@ -1,11 +1,11 @@
-# Fórum Alura 📚
+# Fórum 📚
 [![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 [![Spring](https://img.shields.io/badge/Spring-green?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
 [![Hibernate](https://img.shields.io/badge/Hibernate-purple?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
 [![Maven](https://img.shields.io/badge/Maven-red?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
 
 ## Sobre o Projeto 📖
-Este é um fórum de discussão desenvolvido em Java utilizando o framework Spring e o Hibernate como ORM. O projeto utiliza o Maven como gerenciador de dependências.
+Este é uma API de um fórum de discussão desenvolvido em Java utilizando o framework Spring e o Hibernate como ORM. O projeto utiliza o Maven como gerenciador de dependências.
 
 ## Recursos Principais 🌟
 *   📝 Criação de tópicos e respostas
@@ -30,6 +30,7 @@ O projeto pode ser acessado através da URL `http://localhost:8080`. Os endpoint
 *   `POST /topicos`: Criação de novo tópico
 *   `GET /topicos/{id}`: Detalhes de um tópico
 *   `PUT /topicos/{id}`: Atualização de um tópico
+*   `DELET /topicos/{id}`: Deletar um tópico
 
 ## Configuração 📈
 O projeto utiliza o arquivo `application.properties` para configurar as propriedades do Spring Boot.
@@ -38,7 +39,7 @@ O projeto utiliza o arquivo `application.properties` para configurar as propried
 Contribuições são bem-vindas! Por favor, siga as diretrizes de contribuição do projeto.
 
 ## Licença 📜
-O projeto é licenciado sob a licença MIT.
+Nenhuma licença necessaria.
 
 ## Estrutura do Projeto 📁
 O projeto é estruturado da seguinte forma:
@@ -68,4 +69,4 @@ forum/
 ├── pom.xml
 ```
 ## Créditos ❤️
-Built with ❤️ by iadsonv1n1
+Construido por iadsonv1n1
